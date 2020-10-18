@@ -1,0 +1,32 @@
+# Planejamento do site
+
+1. Ferramentas
+    
+    1.1. Calulando sua idade.
+
+2. Layout
+
+    2.1. Site de página única.
+
+3. Calculo
+
+    data atual:     D 18   M 10  A 2020
+    nascimento:     D 03   M 11  A 1986
+
+    fórmula para os dias em um ano. não vou considerar ano bissesto 
+    
+    1 ano = 365 dias
+    1 mês pode ter = 31 ou 30 ou 28
+
+    dia ano/mes ano  =>     365/12 = 30,416 dm
+
+    dia atual => dm * M + D = 322,16  =>   322,16 dias
+    dia nascimento => dm * M + D = 337,576 =>  337,576 dias
+
+          => dia atual - dia nascimento  . e se o resultado for negativo, multiplicar o valor por *(-1)
+    
+    34 - 1 = 33
+    365 - 15,416 = 349,584
+
+    resultado => 33 anos 349,584 dias
+

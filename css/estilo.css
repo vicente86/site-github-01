@@ -1,0 +1,78 @@
+.container {
+    width:100%;
+}
+
+/* Painel do aplicativo*/
+
+.painel {
+    position:absolute;
+        left:50%;
+        top:5%;
+
+    transform:translateX(-50%);    
+    width:450px;
+    height:200px;
+    border-radius:5px;
+    background-color:#333;
+    color:#fff;
+    box-shadow:0 0 5px #fff;
+}
+
+.painel h1 {
+    padding:20px 0;
+    text-align:center;
+    font-size:1.5rem;
+}
+
+.painel form {
+    position:absolute;
+        left:50%;
+
+    transform: translateX(-50%);    
+    width:400px;
+    height:200px;
+}
+
+/* INPUTs e BUTTONs */
+
+input#nome {
+    text-transform:capitalize;
+    width:300px;
+    margin-bottom:10px;    
+}
+
+button {
+    background-image: linear-gradient(black, blue);
+    color:#fff;
+    font-weight:900;
+    box-shadow:0 0 5px #fff;
+}
+button.btn{
+    padding:5px 15px;
+    border-radius: 5px;
+    position: absolute;
+        left:30%;
+        bottom:40%;
+        
+}
+button.reset{
+    padding:5px 15px;
+    border-radius: 5px;
+    position: absolute;
+        left:65%;
+        bottom:40%;
+        
+}
+/*----------------------*/
+
+.result {
+    position:absolute;
+        left:50%;
+        top:40%;
+
+    transform:translateX(-50%);
+    color:#fff;
+    text-align: center;
+    font-style: italic;
+    font-weight:900;    
+}
